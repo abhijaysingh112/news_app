@@ -1,16 +1,108 @@
-# news_app
 
-A new Flutter project.
+# 📰 Newsly
 
-## Getting Started
+**Newsly** is a simple, modern, and minimalistic Flutter news application that fetches the latest headlines using the [NewsAPI](https://newsapi.org/).  
+It provides a smooth reading experience with light/dark themes, search functionality, and article details view.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## ✨ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📌 **Top Headlines** from the US using NewsAPI  
+- 🎨 **Clean & Minimal UI** with light and dark mode support  
+- 🔍 **Search Functionality** to find articles by keywords  
+- 🔄 **Pull-to-Refresh** for refreshing news feed  
+- 📖 **Detailed Article View** with description and "Read Full Article" button  
+- 🚀 **Splash Screen** with custom logo and branding  
+- ❤️ *Made with Flutter & Provider for state management*  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+## 📱 Screenshots
+
+*(Add your app screenshots here, for example:)*  
+| Splash Screen | News List | Detail Screen |
+|---------------|-----------|---------------|
+|  <img width="500" height="1500" alt="splash_screen" src="https://github.com/user-attachments/assets/60437901-843a-4b94-a7c3-cfabb9f28467" />
+| ![News List](assets/screenshots/newslist.png) | ![Detail](assets/screenshots/detail.png) |
+
+---
+
+## 🛠️ Tech Stack
+
+- [Flutter](https://flutter.dev/) (Dart)  
+- [Provider](https://pub.dev/packages/provider) (State Management)  
+- [NewsAPI](https://newsapi.org/) (REST API for news)  
+- [url_launcher](https://pub.dev/packages/url_launcher) (Open full articles in browser)  
+- [http](https://pub.dev/packages/http) (API requests)  
+
+---
+
+## 📂 Project Structure
+
+```
+
+lib/
+│── main.dart
+│
+├── models/
+│   └── news\_model.dart
+│
+├── providers/
+│   └── news\_provider.dart
+│
+├── services/
+│   └── news\_api\_service.dart
+│
+├── pages/
+│   ├── news\_page.dart
+│   └── detail\_page.dart
+│
+└── widgets/
+└── news\_tile.dart
+
+````
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/newsly.git
+cd newsly
+````
+
+### 2. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 3. Add your NewsAPI key
+
+* Get a free API key from [NewsAPI.org](https://newsapi.org/)
+* Open `services/news_api_service.dart` and replace:
+
+```dart
+static const String apiKey = "YOUR_API_KEY";
+```
+
+with your API key.
+
+### 4. Run the app
+
+```bash
+flutter run
+```
+
+## 💡 Slogan
+
+**Newsly — Stay Ahead, Stay Informed.**
+
+---
+
+## 👨‍💻 Author
+
+* **Your Name**
+  📧 Email: abhijaysingh66@gmail.com
+  🌐 GitHub: https://github.com/abhijaysingh112
