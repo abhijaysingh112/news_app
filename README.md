@@ -22,7 +22,7 @@ It provides a smooth reading experience with light/dark themes, search functiona
 
 | Splash Screen | News List | Detail Screen |
 |---------------|-----------|---------------|
-|  <img width="500" height="1500" alt="splash_screen" src="https://github.com/user-attachments/assets/60437901-843a-4b94-a7c3-cfabb9f28467" /> | |<img width="500" height="1500" alt="News_page" src="https://github.com/user-attachments/assets/266b507b-5619-44e2-b49d-6e09b1f29687" />|| <img width="500" height="1500" alt="Detail_screen" src="https://github.com/user-attachments/assets/ef9476e5-ea72-499e-b291-764faadd50cf" /> |
+|  <img width="500" height="1500" alt="splash_screen" src="https://github.com/user-attachments/assets/60437901-843a-4b94-a7c3-cfabb9f28467" />|<img width="500" height="1500" alt="News_page" src="https://github.com/user-attachments/assets/266b507b-5619-44e2-b49d-6e09b1f29687" />|| <img width="500" height="1500" alt="Detail_screen" src="https://github.com/user-attachments/assets/ef9476e5-ea72-499e-b291-764faadd50cf" /> |
 
 
 ---
